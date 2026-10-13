@@ -69,3 +69,11 @@ A API ficará disponível em:
 - Aplicação: http://127.0.0.1:8000
 - Documentação (Swagger): http://127.0.0.1:8000/docs
 
+## Rodar os testes
+
+Com o ambiente virtual ativo:
+
+```bash
+pytest -v
+```
+

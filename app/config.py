@@ -4,7 +4,11 @@ class Settings(BaseSettings):
     database_url: str = "sqlite:///./test.db"
     secret_key: str
     algorithm: str
-    acess_token_expire_minutes: int
+    access_token_expire_minutes: int
 
     model_config = SettingsConfigDict(env_file=".env")
+
+settings = Settings()
+
+
     
